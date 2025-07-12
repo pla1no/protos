@@ -32,6 +32,6 @@ message IsAdminRequest {
     int64 user_id = 1; // User id to validate. 
 }
 
-message IsAdminRequest {
-    boos is_admin = 1; // Indicates whether the user is an admin. 
+message IsAdminResponse {
+    bool is_admin = 1; // Indicates whether the user is an admin. 
 }
